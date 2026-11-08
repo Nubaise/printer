@@ -1,0 +1,14 @@
+{
+  "name": "campus-xerox-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack printer booking system for the Campus Xerox Shop assessment",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:coverage": "node --experimental-test-coverage --test"
+  },
+  "engines": { "node": ">=20" }
+}
